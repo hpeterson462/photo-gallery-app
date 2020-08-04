@@ -1,12 +1,11 @@
 import React from 'react';
-import image from '../public/data.js';
+import images from './data.js';
 import './App.css';
-import Header from '../src/Header.js';
-import Header from '../src/ImageItem.js';
+import ImageList from './ImageList.js';
 
 function App() {
   return (
-    
+    <ImageList images={images} />
   );
 }
 

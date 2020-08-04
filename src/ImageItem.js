@@ -1,11 +1,7 @@
 import React from 'react';
 
-export default class ImageItem extends Component {
+export default class ImageItem extends React.Component {
     render() {
-        return (
-            <div>
-
-            </div>
-        )
+        return <img src={this.props.image} alt={this.props.title} />
     }
 }
