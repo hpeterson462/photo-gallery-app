@@ -4,6 +4,7 @@ import './App.css';
 import ImageList from './ImageList.js';
 import { render } from '@testing-library/react';
 import Header from './Header.js';
+import Horns from './Horns.js';
 
 const option = [
   "narwhal",
@@ -35,6 +36,7 @@ class App extends React.Component {
     return (
       <>
         <Header className="header" />
+        <Horns />
 
         <select onChange={this.handleDropdown}>
           {
