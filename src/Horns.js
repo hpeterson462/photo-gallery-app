@@ -19,7 +19,7 @@ export default class Horns extends React.Component {
     }
 
     render() {
-        const filterHorns = images.filter(horn => horn.horns === this.state.horns)
+        const filterHorns = images.filter(image => image.horns === Number(this.state.horns))
         return (
             <>
                 <select onChange={this.handleDropdown}>

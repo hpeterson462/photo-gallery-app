@@ -1,7 +1,6 @@
 import React from 'react';
 import images from './data.js';
 import './App.css';
-import ImageList from './ImageList.js';
 import { render } from '@testing-library/react';
 import Header from './Header.js';
 import Horns from './Horns.js';
