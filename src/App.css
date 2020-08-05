@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  background-color: #696969;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #99cccc;
+}
+
+select {
+  display: flex;
+  flex: start;
+  border-radius: 3px;
+  margin: 5px;
+  height: px;
+}
+
+img {
+  width: 400px;
+  border: solid 2px #7a91b1;
+}

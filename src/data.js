@@ -25,7 +25,7 @@ const images = [
     },
     {
         url:
-            "https://images.unsplash.com/photo-1518946222227-364f22132616?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4836a6fca62e7dce9324346bacfde085&auto=format&fit=crop&w=2534&q=80",
+            "https://placekitten.com/400/400",
         title: "UniLego",
         description: "Lego figurine dressed in a unicorn outfit",
         keyword: "unilego",
@@ -112,7 +112,7 @@ const images = [
         horns: 2
     },
     {
-        url: "https://cdn.modernfarmer.com/wp-content/uploads/2014/08/addax.jpg",
+        url: "https://placekitten.com/400/400",
         title: "Addax",
         description:
             "This guy is basically extinct but survives well in captivity, so they're frequently found in zoos",

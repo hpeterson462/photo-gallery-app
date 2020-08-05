@@ -1,6 +1,6 @@
 import React from 'react';
 import images from './data.js';
-import './App.module.css';
+import './App.css';
 import ImageList from './ImageList.js';
 import { render } from '@testing-library/react';
 import Header from './Header.js';
@@ -34,7 +34,7 @@ class App extends React.Component {
 
     return (
       <>
-        <Header />
+        <Header className="header" />
 
         <select onChange={this.handleDropdown}>
           {
@@ -42,10 +42,8 @@ class App extends React.Component {
           }
         </select>
         {
-          filterImages.map(image => <p></p>)
+          filterImages.map(image => <img src={image.url} alt={image.keyword} />)
         }
-
-        <ImageList images={filterImages} />
       </>
     )
   }
